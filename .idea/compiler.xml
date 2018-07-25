@@ -11,9 +11,6 @@
         <module name="dubbo-web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="dubbo-client" target="1.7" />
-      <module name="dubbo-web" target="1.7" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
